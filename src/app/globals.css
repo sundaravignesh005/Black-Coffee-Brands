@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-teal: #26706a;
+  --color-cream: #f5efe6;
+  --color-navy: #0b1e2d;
+  --color-ink: #1a1a1a;
+  --color-mute: #6b7280;
+  --font-sans: var(--font-chakra), system-ui, sans-serif;
+  --font-nav: var(--font-inter), system-ui, sans-serif;
+  --font-logo: var(--font-cormorant), Georgia, serif;
+}
+
+html { scroll-behavior: smooth; }
+body { @apply bg-white text-ink antialiased; }
+
+/* Mobile overflow fix only */
+@media (max-width: 768px) {
+  html, body { overflow-x: hidden; width: 100%; }
+  * { box-sizing: border-box; }
+}
+
+@utility eyebrow { @apply text-[11px] font-semibold tracking-[0.15em] text-teal uppercase; }
+@utility h2 { @apply text-3xl leading-[1.1] font-bold uppercase md:text-[40px]; }
+@utility wrap { @apply mx-auto w-full max-w-[1200px] px-5; }
