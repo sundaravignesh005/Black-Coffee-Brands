@@ -87,11 +87,7 @@ export function Footer() {
       </div>
 
       {/* COPYRIGHT */}
-          <div className="border-t border-white/10 py-[19px] text-center">
-        <p className="text-[12px] text-white/85">
-          Copyright 2026 - Design by BCB
-        </p>
-      </div>
+        
     </footer>
   );
 }
