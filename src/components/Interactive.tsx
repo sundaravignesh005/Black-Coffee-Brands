@@ -10,8 +10,7 @@ import { amenities, faqs, img, nearby } from '@/data/content';
 
 export function Amenities() {
   return (
-    <section className="wrap grid gap-10 py-24 md:grid-cols-[320px_1fr]">
-      <div>
+<section className="wrap grid gap-10 pt-2 pb-6 md:grid-cols-[320px_1fr] md:py-24">      <div>
         <p className="eyebrow text-[15px] font-bold">Amenities</p>
 
         <h2 className="h2 mt-3 text-[30px] font-bold normal-case">
